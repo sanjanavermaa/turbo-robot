@@ -1,0 +1,12 @@
+#python program for selection Sort
+def SelectonSort(l):
+  n=len(l)
+  #loop to fix element
+  for i in range(0,n):
+    #loop to compare elements after ith index
+    for j in rangfe(i+l,n):
+      if(l[i]>l[j]):
+        l[i],l[j]=l[j],l[i]
+  print(l)
+  l=[4,9,5,1,0]
+  SelectionSort(l)
